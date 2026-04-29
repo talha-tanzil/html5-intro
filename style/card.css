@@ -1,0 +1,39 @@
+.card {
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid brown;
+    box-shadow: 10px 10px 10px black;
+    text-align: left;
+}
+
+.card-section {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.card h2 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+body {
+    max-width: 1270px;
+    /* background-color: bisque; */
+    margin: 0 auto;
+}
+
+.card:hover {
+    background-color: aqua;
+}
